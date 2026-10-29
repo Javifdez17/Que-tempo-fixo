@@ -40,6 +40,10 @@ que-tempo-fixo/
 
 O caderno foi deseñado para executarse **de principio a fin dende un cartafol `datos/` completamente baleiro**, xa que a primeira celda descarga automaticamente o ficheiro orixinal en bruto dende GitHub.
 
+### Clonar o repositorio
+```
+git clone https://github.com/Javifdez17/Que-tempo-fixo
+```
 ### Paso 1: Prerrequisitos do Sistema
 Na terminal de Ubuntu / WSL2:
 ```bash
@@ -64,9 +68,6 @@ source venv/bin/activate
 # 3. Actualizar pip e instalar dependencias
 pip install --upgrade pip
 pip install -r requirements.txt
-
-# 4. Rexistrar o kernel de Jupyter para VS Code
-python -m ipykernel install --user --name=p1-meteo --display-name="Python (p1-meteo venv)"
 ```
 
 ### Paso 3: Arrincar a Base de Datos con Docker Compose
